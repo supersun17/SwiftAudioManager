@@ -1,0 +1,6 @@
+framework module Pods_SwiftAudioManager_Tests {
+  umbrella header "Pods-SwiftAudioManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

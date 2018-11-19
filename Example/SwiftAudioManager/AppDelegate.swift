@@ -7,17 +7,35 @@
 //
 
 import UIKit
+import SwiftAudioManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+		SwiftAudioManager.shared.enabled = true
+
+		SwiftAudioManager.shared.prepareAssets(getURLList()) {
+			let storyboard = UIStoryboard(name: "Main", bundle: .main)
+			let vc = storyboard.instantiateViewController(withIdentifier: "Start")
+			self.window = UIWindow(frame: UIScreen.main.bounds)
+			self.window?.rootViewController = vc
+			self.window?.makeKeyAndVisible()
+		}
         return true
     }
+
+	private func getURLList() -> [URL] {
+		var urlList: [URL] = []
+		urlList.append(Bundle.main.url(forResource: "music1", withExtension: "mp3")!)
+		urlList.append(Bundle.main.url(forResource: "music2", withExtension: "mp3")!)
+		urlList.append(Bundle.main.url(forResource: "sfx1", withExtension: "mp3")!)
+		urlList.append(Bundle.main.url(forResource: "sfx2", withExtension: "mp3")!)
+		return urlList
+	}
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

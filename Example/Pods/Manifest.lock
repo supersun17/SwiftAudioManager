@@ -1,0 +1,16 @@
+PODS:
+  - SwiftAudioManager (0.1.0)
+
+DEPENDENCIES:
+  - SwiftAudioManager (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftAudioManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftAudioManager: b5b97904df282183ce6c03d0294ea5ef6ce4b3bd
+
+PODFILE CHECKSUM: 8c4560453e2ab6562ba21aa32470dbc6f4d93305
+
+COCOAPODS: 1.5.3
