@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftAudioManager_Example' do
+  pod 'SwiftAudioManager', :path => '../'
+
+  target 'SwiftAudioManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
