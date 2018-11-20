@@ -6,12 +6,12 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftAudioManager.svg?style=flat)](https://cocoapods.org/pods/SwiftAudioManager)
 
 ## SwiftAudioManager RoadMap
-0.1.0 Foundation features
-0.2.0 Downloading & Local storage
-0.3.0 Key - Url - Music system
-0.4.0 List of keys of stored music
-0.5.0 BGM Fading
-0.6.0 Auto play next in the list
+- 0.1.0 Foundation features
+- 0.2.0 Downloading & Local storage
+- 0.3.0 Key - Url - Music system
+- 0.4.0 List of keys of stored music
+- 0.5.0 BGM Fading
+- 0.6.0 Auto play next in the list
 
 ## Open issue
 + Multiple SFX players, but share one common buffer?

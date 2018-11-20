@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'SwiftAudioManager is a toolkit that helps you to: play music as BGM(loop), or as SFX(stackable), manage local music storage and a lots more .'
 
-  s.homepage         = 'https://github.com/sunming@udel.edu/SwiftAudioManager'
+  s.homepage         = 'https://github.com/supersun17/SwiftAudioManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sunming@udel.edu' => 'mingsun.nolan@gmail.com' }
@@ -27,6 +27,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+
+  s.swift_version = '4.0'
 
   s.source_files = 'SwiftAudioManager/Classes/**/*'
   
