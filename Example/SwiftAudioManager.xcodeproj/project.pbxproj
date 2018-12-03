@@ -11,6 +11,7 @@
 		3A29EED921A458BF00F72A84 /* sfx1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A29EED521A458BE00F72A84 /* sfx1.mp3 */; };
 		3A29EEDA21A458BF00F72A84 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A29EED621A458BE00F72A84 /* music1.mp3 */; };
 		3A29EEDB21A458BF00F72A84 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A29EED721A458BF00F72A84 /* music2.mp3 */; };
+		3A29EEDD21B59F9300F72A84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A29EEDC21B59F9300F72A84 /* Constants.swift */; };
 		3F953AE068EE810FBA73FB66 /* Pods_SwiftAudioManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A55F68A37237D1BEFCFB578 /* Pods_SwiftAudioManager_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 		3A29EED521A458BE00F72A84 /* sfx1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx1.mp3; sourceTree = "<group>"; };
 		3A29EED621A458BE00F72A84 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
 		3A29EED721A458BF00F72A84 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		3A29EEDC21B59F9300F72A84 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		458BC90884FA77590BD8D188 /* SwiftAudioManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftAudioManager.podspec; path = ../SwiftAudioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SwiftAudioManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAudioManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,8 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				3A29EED321A4588900F72A84 /* Assets */,
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				3A29EEDC21B59F9300F72A84 /* Constants.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -348,6 +351,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3A29EEDD21B59F9300F72A84 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

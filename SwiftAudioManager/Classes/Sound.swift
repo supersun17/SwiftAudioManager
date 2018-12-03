@@ -1,8 +1,8 @@
 //
-//  Sound.swift
-//  Pods-SwiftAudioManager
+//	Sound.swift
+//	Pods-SwiftAudioManager
 //
-//  Created by Ming Sun on 11/19/18.
+//	Created by Ming Sun on 11/19/18.
 //
 //	Copyright (c) 2018 sunming@udel.edu <mingsun.nolan@gmail.com>
 //

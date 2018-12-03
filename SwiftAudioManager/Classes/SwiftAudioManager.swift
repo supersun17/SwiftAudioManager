@@ -1,8 +1,8 @@
 //
-//  SwiftAudioManager.swift
-//  Pods-SwiftAudioManager
+//	SwiftAudioManager.swift
+//	Pods-SwiftAudioManager
 //
-//  Created by Ming Sun on 11/19/18.
+//	Created by Ming Sun on 11/19/18.
 //
 //	Copyright (c) 2018 sunming@udel.edu <mingsun.nolan@gmail.com>
 //
@@ -38,10 +38,12 @@ public class SwiftAudioManager {
 	}
 
 	public var isBGMPlaying: Bool {
-		if let url = currentBGM, let sound = SwiftAudioManager.sounds[url], sound.isPlaying {
-			return true
-		} else {
-			return false
+		get {
+			if let url = currentBGM, let sound = SwiftAudioManager.sounds[url], sound.isPlaying {
+				return true
+			} else {
+				return false
+			}
 		}
 	}
 
@@ -51,22 +53,23 @@ public class SwiftAudioManager {
 
 	private init() {}
 
-	public func prepareAssets(_ urlList: [URL], completion: @escaping () -> Void) {
+	public func prepareAssets(_ urlList: [URL], completion: @escaping (_ outcomeList: [PrepareOutcome]) -> Void) {
+		var tempStatus = Dictionary<URL,Bool>()
 		DispatchQueue.global(qos: .userInitiated).async { [weak self] in
 			let group = DispatchGroup()
 			for url in urlList {
 				group.enter()
-				do {
-					let data = try Data(contentsOf: url)
-					self?.cachingManager.saveSoundCache(url, data: data)
-				} catch let error {
-					print("Sound file init error: \(error)")
-				}
+				tempStatus[url] = self?.cachingManager.downloadANDcahce(url)
 				group.leave()
 			}
 			group.notify(queue: .main, execute: {
 				print("dispatch: all done")
-				completion()
+				var tempOutcomeList = [PrepareOutcome]()
+				for url in urlList {
+					let outcome = PrepareOutcome(url: url, success: tempStatus[url] ?? false)
+					tempOutcomeList.append(outcome)
+				}
+				completion(tempOutcomeList)
 			})
 		}
 	}
@@ -99,9 +102,9 @@ public class SwiftAudioManager {
 		}
 	}
 
-	/// Stop playing sound for given key.
+	/// Stop playing sound for given url.
 	///
-	/// - Parameter key: Sound file key.
+	/// - Parameter url: Sound file url.
 	public func stop(for sourceURL: URL) {
 		findSound(for: sourceURL)?.stop()
 	}
