@@ -1,8 +1,8 @@
 //
-//  CachingManager.swift
-//  Pods-SwiftAudioManager
+//	CachingManager.swift
+//	Pods-SwiftAudioManager
 //
-//  Created by Ming Sun on 11/19/18.
+//	Created by Ming Sun on 11/19/18.
 //
 //	Copyright (c) 2018 sunming@udel.edu <mingsun.nolan@gmail.com>
 //
@@ -38,6 +38,19 @@ internal class CachingManager {
 	internal init() {
 		if !FileManager.default.fileExists(atPath: baseDirectory.path) {
 			try? FileManager.default.createDirectory(atPath: baseDirectory.path, withIntermediateDirectories: true, attributes: nil)
+		}
+	}
+
+	internal func downloadANDcahce(_ sourceURL: URL) -> Bool {
+		if isURLUnderBunble(sourceURL) { return true }
+
+		do {
+			let data = try Data(contentsOf: sourceURL)
+			saveSoundCache(sourceURL, data: data)
+			return true
+		} catch let error {
+			print("Sound file \(sourceURL) init error: \(error)")
+			return false
 		}
 	}
 

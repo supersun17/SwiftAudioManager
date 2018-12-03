@@ -23,16 +23,17 @@ class ViewController: UIViewController {
 	@IBAction func music1(_ sender: UIButton) {
 		SwiftAudioManager.shared.playAsBGM(Bundle.main.url(forResource: "music1", withExtension: "mp3")!)
 	}
-
 	@IBAction func music2(_ sender: UIButton) {
 		SwiftAudioManager.shared.playAsBGM(Bundle.main.url(forResource: "music2", withExtension: "mp3")!)
 	}
-
 	@IBAction func sfx1(_ sender: UIButton) {
 		SwiftAudioManager.shared.playAsSFX(Bundle.main.url(forResource: "sfx1", withExtension: "mp3")!)
 	}
 	@IBAction func sfx2(_ sender: UIButton) {
 		SwiftAudioManager.shared.playAsSFX(Bundle.main.url(forResource: "sfx2", withExtension: "mp3")!)
+	}
+	@IBAction func onlinesfx() {
+		SwiftAudioManager.shared.playAsSFX(URL(string: onlineSFX)!)
 	}
 }
 

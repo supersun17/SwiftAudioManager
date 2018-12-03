@@ -22,34 +22,41 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="68" translatesAutoresizingMaskIntoConstraints="NO" id="MHG-7A-gaR">
-                                <rect key="frame" x="160.5" y="171.5" width="54" height="324"/>
+                                <rect key="frame" x="149.5" y="122.5" width="76" height="422"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctc-Fj-STS">
-                                        <rect key="frame" x="0.0" y="0.0" width="54" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="30"/>
                                         <state key="normal" title="Music 1"/>
                                         <connections>
                                             <action selector="music1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RvR-Fl-5mS"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PM-AX-baq">
-                                        <rect key="frame" x="0.0" y="98" width="54" height="30"/>
+                                        <rect key="frame" x="0.0" y="98" width="76" height="30"/>
                                         <state key="normal" title="Music 2"/>
                                         <connections>
                                             <action selector="music2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="y8h-Tg-rpe"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbY-ON-mrV">
-                                        <rect key="frame" x="0.0" y="196" width="54" height="30"/>
+                                        <rect key="frame" x="0.0" y="196" width="76" height="30"/>
                                         <state key="normal" title="SFX 1"/>
                                         <connections>
                                             <action selector="sfx1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ti5-19-3a1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWn-EK-O85">
-                                        <rect key="frame" x="0.0" y="294" width="54" height="30"/>
+                                        <rect key="frame" x="0.0" y="294" width="76" height="30"/>
                                         <state key="normal" title="SFX 2"/>
                                         <connections>
                                             <action selector="sfx2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="piL-An-iWO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pb-8B-GH2" userLabel="Online SFX">
+                                        <rect key="frame" x="0.0" y="392" width="76" height="30"/>
+                                        <state key="normal" title="Online SFX"/>
+                                        <connections>
+                                            <action selector="onlinesfx" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oJo-mT-dbZ"/>
                                         </connections>
                                     </button>
                                 </subviews>

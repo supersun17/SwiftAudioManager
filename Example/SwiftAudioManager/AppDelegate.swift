@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 		SwiftAudioManager.shared.enabled = true
 
-		SwiftAudioManager.shared.prepareAssets(getURLList()) {
+		SwiftAudioManager.shared.prepareAssets(getURLList()) { _ in
 			let storyboard = UIStoryboard(name: "Main", bundle: .main)
 			let vc = storyboard.instantiateViewController(withIdentifier: "Start")
 			self.window = UIWindow(frame: UIScreen.main.bounds)
@@ -34,6 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		urlList.append(Bundle.main.url(forResource: "music2", withExtension: "mp3")!)
 		urlList.append(Bundle.main.url(forResource: "sfx1", withExtension: "mp3")!)
 		urlList.append(Bundle.main.url(forResource: "sfx2", withExtension: "mp3")!)
+		urlList.append(URL(string: onlineSFX)!)
 		return urlList
 	}
 
