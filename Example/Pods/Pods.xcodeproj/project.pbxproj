@@ -39,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		079676310D4044BA68C8DDB8E04A5777 /* Pods_SwiftAudioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAudioManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		079676310D4044BA68C8DDB8E04A5777 /* Pods_SwiftAudioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAudioManager_Tests.framework; path = "Pods-SwiftAudioManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A077DD9C301A6E8A6E71517647AA499 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C154C944D3D94DEF3F5EA14DD942D1C /* SwiftAudioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAudioManager-prefix.pch"; sourceTree = "<group>"; };
 		1BCF1F73409D0255268BCD1BE023F67E /* Pods-SwiftAudioManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAudioManager_Example.modulemap"; sourceTree = "<group>"; };
-		2CAFC6D8A6301C6DD74D9084C2661FBC /* SwiftAudioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SwiftAudioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CAFC6D8A6301C6DD74D9084C2661FBC /* SwiftAudioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftAudioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D00FF650C51C37C718EEEE3BAA15969 /* Pods-SwiftAudioManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAudioManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		38AAE48786436BBAADF9DDAABCE7461C /* SwiftAudioManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAudioManager.xcconfig; sourceTree = "<group>"; };
 		3ACC54BB059B2BE2050C6C115B3E58B0 /* SwiftAudioManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAudioManager.swift; path = SwiftAudioManager/Classes/SwiftAudioManager.swift; sourceTree = "<group>"; };
@@ -54,9 +54,9 @@
 		64CAFBF02E48FACBCAD706CDC802418F /* Pods-SwiftAudioManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAudioManager_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66DE33517AEE4827098CEB1D394EBA42 /* SwiftAudioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAudioManager.modulemap; sourceTree = "<group>"; };
-		71ED3EEBA20F9D17DDBC968F20528179 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		91479B4C915990B253F4DA32B7285279 /* SwiftAudioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAudioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71ED3EEBA20F9D17DDBC968F20528179 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		91479B4C915990B253F4DA32B7285279 /* SwiftAudioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAudioManager.framework; path = SwiftAudioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93AFB03FCC3E5F0694656C8A3886BEBB /* Pods-SwiftAudioManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAudioManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97992DF463E925B59695921D79E21DBC /* Pods-SwiftAudioManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAudioManager_Example-resources.sh"; sourceTree = "<group>"; };
 		9A5849693FE2028461A08A00A5442AD0 /* Pods-SwiftAudioManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAudioManager_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		C565FC402D413FE1D8F1DE74FE89BAB6 /* Pods-SwiftAudioManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAudioManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C730FB834D08E0DF8B75688CADA850BE /* Pods-SwiftAudioManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAudioManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DC0E2E4E72F4E78FED92798495AE17FC /* Pods-SwiftAudioManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAudioManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2CF275A17F27CDB8416E2EEF8EB160E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E32A1F7D50BD083AEE887D3641883260 /* Pods_SwiftAudioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAudioManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CF275A17F27CDB8416E2EEF8EB160E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E32A1F7D50BD083AEE887D3641883260 /* Pods_SwiftAudioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAudioManager_Example.framework; path = "Pods-SwiftAudioManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78DBE5BA94C3FA978B7E42580D8AFA2 /* CachingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachingManager.swift; path = SwiftAudioManager/Classes/CachingManager.swift; sourceTree = "<group>"; };
 		E930D5823CF825BD8EE2F921AF58832B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F028B7612377896FD1F1463C81F9CC3A /* Pods-SwiftAudioManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAudioManager_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -157,9 +157,9 @@
 		AE271C2F95DAB28F728A57A0351A57AC /* SwiftAudioManager */ = {
 			isa = PBXGroup;
 			children = (
-				3ACC54BB059B2BE2050C6C115B3E58B0 /* SwiftAudioManager.swift */,
 				E78DBE5BA94C3FA978B7E42580D8AFA2 /* CachingManager.swift */,
 				9FB4E2AAE1E62491B87C64377A1755E2 /* Sound.swift */,
+				3ACC54BB059B2BE2050C6C115B3E58B0 /* SwiftAudioManager.swift */,
 				26051CF6ED3C4884B9D5F822E3F4EB28 /* Pod */,
 				F526A595EA1473AE28C56FDE35C9D7AE /* Support Files */,
 			);
@@ -390,10 +390,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5146D24CE2D8655B4425D1AC27362B56 /* Release */ = {
+		38355DAF04D80C156F049140B633E08C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38AAE48786436BBAADF9DDAABCE7461C /* SwiftAudioManager.xcconfig */;
+			baseConfigurationReference = C730FB834D08E0DF8B75688CADA850BE /* Pods-SwiftAudioManager_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -403,19 +405,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioManager/SwiftAudioManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftAudioManager/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAudioManager_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftAudioManager/SwiftAudioManager.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAudioManager;
-				PRODUCT_NAME = SwiftAudioManager;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAudioManager_Example/Pods-SwiftAudioManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -423,39 +426,7 @@
 			};
 			name = Release;
 		};
-		7B9F313EC74660D9503C5FC5E62777DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38AAE48786436BBAADF9DDAABCE7461C /* SwiftAudioManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioManager/SwiftAudioManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftAudioManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftAudioManager/SwiftAudioManager.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAudioManager;
-				PRODUCT_NAME = SwiftAudioManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -508,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -568,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -576,11 +547,12 @@
 			};
 			name = Release;
 		};
-		CB5A3F31FB4F1A1BB9EDA7FD1CD5B9ED /* Release */ = {
+		882F3AF9B12808AF4F07D928D5587D6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F09D07C32811C387CBC20C7AE837C810 /* Pods-SwiftAudioManager_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -592,7 +564,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAudioManager_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAudioManager_Tests/Pods-SwiftAudioManager_Tests.modulemap";
@@ -610,11 +582,11 @@
 			};
 			name = Release;
 		};
-		ECD54365D2FCDE30EB4EDC08845D20E0 /* Debug */ = {
+		B8F0CEA38868E3C29EB7A2D7BB34161A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 565A55F6A512649700F3B7252F4777D1 /* Pods-SwiftAudioManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 38AAE48786436BBAADF9DDAABCE7461C /* SwiftAudioManager.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -624,30 +596,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAudioManager_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioManager/SwiftAudioManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAudioManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAudioManager_Tests/Pods-SwiftAudioManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftAudioManager/SwiftAudioManager.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAudioManager;
+				PRODUCT_NAME = SwiftAudioManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F30600BCF2F34D10A823CD67CB0DF6E3 /* Release */ = {
+		CB4AE644D6E98990075299667241D33F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C730FB834D08E0DF8B75688CADA850BE /* Pods-SwiftAudioManager_Example.release.xcconfig */;
+			baseConfigurationReference = 38AAE48786436BBAADF9DDAABCE7461C /* SwiftAudioManager.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -657,20 +629,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAudioManager_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioManager/SwiftAudioManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAudioManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAudioManager_Example/Pods-SwiftAudioManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftAudioManager/SwiftAudioManager.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAudioManager;
+				PRODUCT_NAME = SwiftAudioManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -678,11 +649,12 @@
 			};
 			name = Release;
 		};
-		FDEB5E416A614B934EAB057E3B932CB3 /* Debug */ = {
+		E640CD782017C17499B008E17E484B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C126A5C8D7E34C1CD2C9E7FA5E8D4273 /* Pods-SwiftAudioManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -694,7 +666,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAudioManager_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAudioManager_Example/Pods-SwiftAudioManager_Example.modulemap";
@@ -713,14 +685,48 @@
 			};
 			name = Debug;
 		};
+		EF3F45054BC8FE84ED22A9F35530C7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565A55F6A512649700F3B7252F4777D1 /* Pods-SwiftAudioManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAudioManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAudioManager_Tests/Pods-SwiftAudioManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -728,8 +734,8 @@
 		6308269232AE913C0851BC0BAA2538A3 /* Build configuration list for PBXNativeTarget "SwiftAudioManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B9F313EC74660D9503C5FC5E62777DA /* Debug */,
-				5146D24CE2D8655B4425D1AC27362B56 /* Release */,
+				B8F0CEA38868E3C29EB7A2D7BB34161A /* Debug */,
+				CB4AE644D6E98990075299667241D33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -737,8 +743,8 @@
 		AD3B85BB0D933BEB0F9A75B52DC7B568 /* Build configuration list for PBXNativeTarget "Pods-SwiftAudioManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD54365D2FCDE30EB4EDC08845D20E0 /* Debug */,
-				CB5A3F31FB4F1A1BB9EDA7FD1CD5B9ED /* Release */,
+				EF3F45054BC8FE84ED22A9F35530C7FC /* Debug */,
+				882F3AF9B12808AF4F07D928D5587D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,8 +752,8 @@
 		BF103AC3E3D0061A96FCCAE3703EC188 /* Build configuration list for PBXNativeTarget "Pods-SwiftAudioManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDEB5E416A614B934EAB057E3B932CB3 /* Debug */,
-				F30600BCF2F34D10A823CD67CB0DF6E3 /* Release */,
+				E640CD782017C17499B008E17E484B36 /* Debug */,
+				38355DAF04D80C156F049140B633E08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

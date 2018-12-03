@@ -1,5 +1,5 @@
 PODS:
-  - SwiftAudioManager (0.1.0)
+  - SwiftAudioManager (0.2.0)
 
 DEPENDENCIES:
   - SwiftAudioManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftAudioManager: b5b97904df282183ce6c03d0294ea5ef6ce4b3bd
+  SwiftAudioManager: f5d4d0881767c9bae38b0908a958e63cfe1b6eaf
 
 PODFILE CHECKSUM: 8c4560453e2ab6562ba21aa32470dbc6f4d93305
 
