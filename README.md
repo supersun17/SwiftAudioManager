@@ -38,6 +38,7 @@ SwiftAudioManager.shared.prepareAssets(_ urlList: ["local url/link"]) { outcomeL
 		}
 }
 ```
+	- Note: the downloaded sound files will be persistantly cached in disk.
 
 - ### Step2: how to play
 	- Play as BGM(background music):

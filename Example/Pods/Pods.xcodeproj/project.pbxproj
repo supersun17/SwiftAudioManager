@@ -39,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		079676310D4044BA68C8DDB8E04A5777 /* Pods_SwiftAudioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAudioManager_Tests.framework; path = "Pods-SwiftAudioManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079676310D4044BA68C8DDB8E04A5777 /* Pods_SwiftAudioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAudioManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A077DD9C301A6E8A6E71517647AA499 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C154C944D3D94DEF3F5EA14DD942D1C /* SwiftAudioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAudioManager-prefix.pch"; sourceTree = "<group>"; };
 		1BCF1F73409D0255268BCD1BE023F67E /* Pods-SwiftAudioManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAudioManager_Example.modulemap"; sourceTree = "<group>"; };
-		2CAFC6D8A6301C6DD74D9084C2661FBC /* SwiftAudioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftAudioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CAFC6D8A6301C6DD74D9084C2661FBC /* SwiftAudioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SwiftAudioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D00FF650C51C37C718EEEE3BAA15969 /* Pods-SwiftAudioManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAudioManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		38AAE48786436BBAADF9DDAABCE7461C /* SwiftAudioManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAudioManager.xcconfig; sourceTree = "<group>"; };
 		3ACC54BB059B2BE2050C6C115B3E58B0 /* SwiftAudioManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAudioManager.swift; path = SwiftAudioManager/Classes/SwiftAudioManager.swift; sourceTree = "<group>"; };
@@ -54,9 +54,9 @@
 		64CAFBF02E48FACBCAD706CDC802418F /* Pods-SwiftAudioManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAudioManager_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66DE33517AEE4827098CEB1D394EBA42 /* SwiftAudioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAudioManager.modulemap; sourceTree = "<group>"; };
-		71ED3EEBA20F9D17DDBC968F20528179 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		91479B4C915990B253F4DA32B7285279 /* SwiftAudioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAudioManager.framework; path = SwiftAudioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71ED3EEBA20F9D17DDBC968F20528179 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		91479B4C915990B253F4DA32B7285279 /* SwiftAudioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAudioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93AFB03FCC3E5F0694656C8A3886BEBB /* Pods-SwiftAudioManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAudioManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97992DF463E925B59695921D79E21DBC /* Pods-SwiftAudioManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAudioManager_Example-resources.sh"; sourceTree = "<group>"; };
 		9A5849693FE2028461A08A00A5442AD0 /* Pods-SwiftAudioManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAudioManager_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		C565FC402D413FE1D8F1DE74FE89BAB6 /* Pods-SwiftAudioManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAudioManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C730FB834D08E0DF8B75688CADA850BE /* Pods-SwiftAudioManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAudioManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DC0E2E4E72F4E78FED92798495AE17FC /* Pods-SwiftAudioManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAudioManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2CF275A17F27CDB8416E2EEF8EB160E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E32A1F7D50BD083AEE887D3641883260 /* Pods_SwiftAudioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAudioManager_Example.framework; path = "Pods-SwiftAudioManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CF275A17F27CDB8416E2EEF8EB160E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E32A1F7D50BD083AEE887D3641883260 /* Pods_SwiftAudioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAudioManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78DBE5BA94C3FA978B7E42580D8AFA2 /* CachingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachingManager.swift; path = SwiftAudioManager/Classes/CachingManager.swift; sourceTree = "<group>"; };
 		E930D5823CF825BD8EE2F921AF58832B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F028B7612377896FD1F1463C81F9CC3A /* Pods-SwiftAudioManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAudioManager_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -157,9 +157,9 @@
 		AE271C2F95DAB28F728A57A0351A57AC /* SwiftAudioManager */ = {
 			isa = PBXGroup;
 			children = (
+				3ACC54BB059B2BE2050C6C115B3E58B0 /* SwiftAudioManager.swift */,
 				E78DBE5BA94C3FA978B7E42580D8AFA2 /* CachingManager.swift */,
 				9FB4E2AAE1E62491B87C64377A1755E2 /* Sound.swift */,
-				3ACC54BB059B2BE2050C6C115B3E58B0 /* SwiftAudioManager.swift */,
 				26051CF6ED3C4884B9D5F822E3F4EB28 /* Pod */,
 				F526A595EA1473AE28C56FDE35C9D7AE /* Support Files */,
 			);

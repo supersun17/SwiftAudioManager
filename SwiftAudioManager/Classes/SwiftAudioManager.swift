@@ -27,16 +27,18 @@
 import Foundation
 
 public class SwiftAudioManager {
+	/// The one and only instance object of SwiftAudioManager
 	public static let shared = SwiftAudioManager()
 
-	public typealias PrepareOutcome = (url: URL, success: Bool)
-
+	/// This variable indicates whether SwiftAudioManager can play sound or not.
+	/// Set it to false will disable SwiftAudioManager, and stop all currently playing sounds.
 	public var enabled: Bool = true {
 		didSet {
 			if !enabled { stopAll() }
 		}
 	}
 
+	/// This variable is used to indicate whether there is a BGM playing
 	public var isBGMPlaying: Bool {
 		get {
 			if let url = currentBGM, let sound = SwiftAudioManager.sounds[url], sound.isPlaying {
@@ -53,7 +55,15 @@ public class SwiftAudioManager {
 
 	private init() {}
 
-	public func prepareAssets(_ urlList: [URL], completion: @escaping (_ outcomeList: [PrepareOutcome]) -> Void) {
+	/**
+	Use this method to prepare online audio resource.
+	It's OK to also pass in local assets URL. SwiftAudioManager won't start downloading if this is a local resource.
+	- Parameters:
+	- urlList: the list of online resource URL
+	- completion: the callback handler will be called after all resources have been downloaded. The argument outcomeDictionary is used to indicate whether a specific resource has been successfully downloaded. For an given URL, if the download failed, the Boolean value will be false.
+	- Note: local URL will always return success, because there is no need to download.
+	**/
+	public func prepareAssets(_ urlList: [URL], completion: @escaping (_ outcomeDictionary: Dictionary<URL,Bool>) -> Void) {
 		var tempStatus = Dictionary<URL,Bool>()
 		DispatchQueue.global(qos: .userInitiated).async { [weak self] in
 			let group = DispatchGroup()
@@ -63,17 +73,19 @@ public class SwiftAudioManager {
 				group.leave()
 			}
 			group.notify(queue: .main, execute: {
-				print("dispatch: all done")
-				var tempOutcomeList = [PrepareOutcome]()
-				for url in urlList {
-					let outcome = PrepareOutcome(url: url, success: tempStatus[url] ?? false)
-					tempOutcomeList.append(outcome)
-				}
-				completion(tempOutcomeList)
+				print("SwiftAudioManager resource download finished")
+				completion(tempStatus)
 			})
 		}
 	}
 
+	/**
+	Use this method to play local audio or cached audio as a BackGround Music.
+	- Parameters:
+	- sourceURL: Bundle URL or online URL
+	- loop: if true, then the BGM will loop
+	- completion: the callback handler will be called after the audio finished. It can be just nil
+	**/
 	public func playAsBGM(_ sourceURL: URL, loop: Bool = true, completion: PlayerCompletion? = nil) {
 		if !enabled { return }
 		if isBGMPlaying {
@@ -93,6 +105,11 @@ public class SwiftAudioManager {
 		currentBGM = localURL
 	}
 
+	/**
+	Use this method to play local audio or cached audio as a Sound Effect.
+	- Parameters:
+	- sourceURL: Bundle URL or online URL
+	**/
 	public func playAsSFX(_ sourceURL: URL) {
 		if !enabled { return }
 		if let sound = findSound(for: sourceURL) {
@@ -102,13 +119,17 @@ public class SwiftAudioManager {
 		}
 	}
 
-	/// Stop playing sound for given url.
-	///
-	/// - Parameter url: Sound file url.
+	/**
+	Stop playing sound for a given url.
+	- Parameter url: Sound file url.
+	**/
 	public func stop(for sourceURL: URL) {
 		findSound(for: sourceURL)?.stop()
 	}
 
+	/**
+	Stop playing all sounds.
+	**/
 	public func stopAll() {
 		for (_,v) in SwiftAudioManager.sounds {
 			v.stop()
