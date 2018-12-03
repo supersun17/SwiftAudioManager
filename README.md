@@ -29,6 +29,7 @@ Bundle.main.url(forResource: "audio name", withExtension: "mp3")
 #### For online file link:
 SwiftAudioManager needs a valid link - one that will work on browser. For example:
 [https://www.example.com/sounds/1/example.mp3 link](https://www.example.com/sounds/1/example.mp3)
+
 If you do have it ready, then go ahead and download the audio file by using this piece of codes:
 ```Swift
 // Note that the link string needs to be converted to URL
